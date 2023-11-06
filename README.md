@@ -34,10 +34,9 @@ HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 }
 ```
 ## Output  :
-![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/b0e7c63a-137f-4caf-b834-e6525a9e1d33)
+![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/38f3307b-dd3a-45dd-a06a-a2f89ac13798)
 
-
-![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/4e123df3-86b9-4266-8c56-81bfe8a62011)
+![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/cd683915-d054-4f19-9e6b-ee6c865735ac)
 
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
