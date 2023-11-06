@@ -14,18 +14,14 @@ bool button_status;
 void push_button();
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-int main(void)
-{
-while (1)
-{
+int main(void){
+while (1){
 push_button();
 }
 }
-void push_button()
-{
+void push_button(){
 button_status =HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
-if(button_status == 0)
-{
+if(button_status == 0){
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
 HAL_Delay(1000);
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
@@ -42,6 +38,5 @@ HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 
 ![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/4e123df3-86b9-4266-8c56-81bfe8a62011)
 
- 
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
