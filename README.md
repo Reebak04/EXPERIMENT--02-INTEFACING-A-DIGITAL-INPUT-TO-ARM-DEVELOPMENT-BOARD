@@ -3,11 +3,9 @@
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool.
 ## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
-
 ## STM 32 CUBE PROGRAM :
 ```
 DEVELOPED BY:Tejusve Kabeer.F REG.NO: 212222100054
-
 #include "main.h"
 #include "stdbool.h"
 bool button_status;
@@ -27,8 +25,7 @@ HAL_Delay(1000);
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 HAL_Delay(1000);
 }
-else
-{
+else{
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 }
 }
@@ -36,7 +33,6 @@ HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 ## Output  :
 ![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/38f3307b-dd3a-45dd-a06a-a2f89ac13798)
 
-![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/cd683915-d054-4f19-9e6b-ee6c865735ac)
-
+![image](https://github.com/Reebak04/EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD/assets/118364993/b27a2ca1-7711-4eac-a457-3f35517e63e9)
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
